@@ -9,19 +9,19 @@ const NavBar = () => {
         <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
             <NavLink to='/' className='flex flex-col items-center gap-1'>
                 <p>Home</p>
-                <hr class="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></hr>
+                <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></hr>
             </NavLink>
             <NavLink to='/collection' className='flex flex-col items-center gap-1'>
                 <p>Collections</p>
-                <hr class="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></hr>
+                <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></hr>
             </NavLink>
             <NavLink to='/about' className='flex flex-col items-center gap-1'>
                 <p>About</p>
-                <hr class="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></hr>
+                <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></hr>
             </NavLink>
             <NavLink to='/contact' className='flex flex-col items-center gap-1'>
                 <p>Contact</p>
-                <hr class="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></hr>
+                <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></hr>
             </NavLink>
             
         </ul>
